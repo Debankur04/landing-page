@@ -1,0 +1,231 @@
+*{
+    margin: 5px;
+}
+body{
+    background: url(space-background.jpg);
+    background-size: cover;
+    color: white;
+}
+.navigation{
+    top: 0%;
+    width: 100%;
+    height: 3%;
+    background-color: black;
+    text-align: end;
+    position: static;
+}
+.navigation>a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: background-color 5s ease-out; 
+}
+.navigation>a:hover{
+    color: rgb(221, 26, 26);
+}
+.firstblock{
+    top: 30%;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+}
+.firstblock>a>button{
+    height: 40px;
+    background-color: red;
+}
+.firstblock>a>button:hover{
+    background-color: transparent;
+    color: white;
+}
+.mainblock{
+    top: 100%;
+    position: absolute;
+    display: flex;
+    height: 60%;
+    width: 88%;
+    margin-left: 10%;
+    margin-right: 10%;
+    left: -3%;
+}
+.block1, .block2{
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5%;
+}
+.block2{
+    width: 208%;
+}
+.box1, .box2, .box3, .box4{
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    border: 2px rgb(255, 254, 254) solid;
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    border-radius: 3%;
+}
+.block1>h3{
+    text-align: center;
+    padding-top: 110px;
+}
+.block1>p{
+    color: rgb(123, 126, 126);
+}
+
+.box1>i, .box2>i, .box3>i, .box4>i{
+    color: #9F4546;
+    font-size: xx-large;
+}
+.box1>p, .box2>p, .box3>p, .box4>p{
+    color: rgb(123, 126, 126);
+}
+h4{
+    color: #7484C2;
+}
+.box1{
+    top: -10%;
+    left: 60%;
+}
+.box2{
+    top: 10%;
+    left: 80%;
+}
+.box3{
+    top: 60%;
+    left: 60%;
+}
+.box4{
+    top: 80%;
+    left: 80%;
+}
+.bigblock{
+    position: absolute;
+    top: 210%;
+    display: flex;
+    height: 80%;
+}
+.bigblock>.left{
+    color: rgb(123, 126, 126);
+}
+.left, .right{
+    border: 2px rgb(254, 254, 254) solid;
+    border-radius: 5%;
+}
+.right{
+    padding-top: 220px;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+}
+.left{
+    padding-top: 200px;
+    width: 80%;
+    text-align: center;
+}
+.data{
+    position: absolute;
+    top: 300%;
+    left: 35%;
+}
+.data1>h2{
+    color: #9F4546;
+}
+.data1>p{
+    color: rgb(123, 126, 126);
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    gap: 20px;
+    left: -20%;    
+    position: absolute;
+    font-size: x-large;
+}
+.brands{
+    display: flex;
+    position: absolute;
+    top: 378%;
+    font-size: large;
+    gap: 15px;
+    left: 30%;
+}
+.brands>.partner{
+    color: rgb(123, 126, 126);
+    font-size: larger;
+}
+.end{
+    display: flex;
+    position: absolute;
+    top: 390%;
+}
+.second>p{
+    color: rgb(123, 126, 126);
+    text-align: center;
+}
+.second>a>button{
+    background-color: red;
+    font-size: large;
+}
+.second>a>button:hover{
+    background-color: transparent;
+    color: white;
+}
+.first, .second{
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 5%;
+}
+.first{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    width: 80%;
+    text-align: center;
+    top: 50%;
+}
+.second{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 80%;
+    text-align: center;
+}
+.final{
+    display: flex;
+    position: absolute;
+    top: 455%;
+    gap: 200px;
+    font-size: large;
+}
+.column2{
+    padding-top: 30px;
+}
+.column2>a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+}
+.column2>a>button{
+    background-color: red;
+}
+.column2>a>button:hover{
+    background-color: transparent;
+    color: white;
+}
+.column3>button{
+    background-color: transparent;
+    color: white;
+    font-size: large;
+}
+.column3>button:hover{
+    background: #7484C2;
+    color: black;
+}
+.icons>.x>a{
+    text-decoration: none;
+    color: white;
+}
+.icons>.linkedIn>a{
+    text-decoration: none;
+    color: white;
+}
+.icons>.youtube>a{
+    text-decoration: none;
+    color: white;
+}
